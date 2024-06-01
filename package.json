@@ -1,0 +1,19 @@
+{
+  "name": "api-s3",
+  "version": "1.0.0",
+  "description": "node api reading from s3 bucket, contains redis cache",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.588.0",
+    "@aws-sdk/client-sts": "^3.588.0",
+    "@aws-sdk/credential-providers": "^3.588.0",
+    "aws-sdk": "^2.1632.0",
+    "dotenv": "^16.4.5"
+  }
+}
